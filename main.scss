@@ -16,14 +16,27 @@ $c2: brown;
     color: $mc;
     align-self: baseline; 
 }
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.ic{
+    flex-wrap: wrap;
+    width: auto; 
+    height: auto;
+}
 .f{
-    float: right; 
-    width: 450px;
-    height: 550px;
+    flex-wrap: wrap;
+    align-content: center;
+    width: auto;
+    height:auto;
     background-color: $c2;
     padding: 20px;
-    margin-right: 50px;
-    margin-bottom: 50pt;
+    /*margin-right: 50px;
+    margin-bottom: 50pt;*/
+    margin: 250 px;
     border-radius: 10px;
     box-shadow: 10pt;
 }   
@@ -106,12 +119,6 @@ $c2: brown;
     background-image: url("images__178_-removebg-preview.png");
     background-repeat: repeat-x repeat-y;
     background-size: 20ex ;
-}
-.ic{
-    align-items: center;
-    align-content: center;
-    width: 500px; 
-    height: 500px;
 }
 .menu{
     border-radius: 5%;
